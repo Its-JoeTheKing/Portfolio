@@ -1,0 +1,187 @@
+html {
+    margin: 0px !important;
+    height: 100vh;
+}
+body {
+    margin: 0px !important;
+    height: 100%;
+}
+header {
+    z-index: 1000;
+    background: black;
+    height: 65px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    position: fixed;
+}
+li,.navs {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-decoration: none;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navs:hover {
+    transition: 2s;
+    color: rgb(165, 156, 156);
+    font-size: 26px;
+}
+.tit {
+    position: absolute;
+    background: rgb(228, 226, 226);
+    height: 65px;
+    width: 160px;
+    color: black;
+    font-family: 'Slabo 27px', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+
+}
+h1 {
+    margin: 15px 30px 10px 10px;
+}
+.cont {
+    overflow: auto;
+    height: 50%;
+    width: 100%;
+}
+.card {
+    top: 0;
+    background: rgb(22, 22, 22);
+    margin-top: 65px;
+    display: block;
+}
+.c1 {
+    margin-top: 50px;
+    display: block;
+    width:50%;
+    border-radius: 50%;
+
+}
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.c2 {
+    width: 80%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: .5% .5% .5% .5%;
+    justify-content: center;
+    align-items: center;
+}
+.links {
+    background: linear-gradient(to left bottom,rgb(255, 0, 98),rgb(0, 91, 211));
+    bottom: 0;
+    height: 60%;
+    padding-bottom: 20px;
+}
+.link {
+    width: 100%;
+    height: 40px;
+}
+.box {
+    width: 60%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.tit2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(238, 9, 9);
+    width: 30%;
+}
+i {
+    color: white;
+}
+.fb {
+    background: #0967da;
+    height: 20px;
+    color: white;
+    font-family: 'Poppins';
+    box-shadow: 0px 0px 6px 1px rgba(20,20,20,0.83);
+    font-size: 17px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.fb:hover {
+    transition: 3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px -4px rgba(20,20,20,0.83);
+    background: #002fff;
+}
+.ig {
+    background: linear-gradient(to left,rgb(255, 68, 10),rgb(255, 3, 66));
+    height: 20px;
+    font-family: 'Poppins';
+    box-shadow: 0px 0px 6px 1px rgba(20,20,20,0.83);
+    font-size: 17px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.ig:hover {
+    transition: 3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px -4px rgba(20,20,20,0.83);
+    background: rgb(255, 68, 10);
+}
+.lk {
+    background:  #0072b1;
+    height: 20px;
+    font-family: 'Poppins';
+    box-shadow: 0px 0px 6px 1px rgba(20,20,20,0.83);
+    font-size: 17px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.lk:hover {
+    transition: 3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px -4px rgba(20,20,20,0.83);
+    background: #29acf3;
+}
+.tw {
+    background: #1DA1F2;
+    height: 20px;
+    font-family: 'Poppins';
+    box-shadow: 0px 0px 6px 1px rgba(20,20,20,0.83);
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.tw:hover {
+    transition: 3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px -4px rgba(20,20,20,0.83);
+    background: #1861e9;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.tit3 {
+    color: white;
+    font-family: "Roboto";
+    width: 30%;
+    font-size: 30px;
+    border-bottom: 4px rgb(0, 89, 255) solid;
+}
+.c {
+    display: none;
+}
